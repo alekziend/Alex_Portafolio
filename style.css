@@ -1,5 +1,5 @@
 *{
-    margin: 2;
+    margin: 2px;
     padding: 0;
     box-sizing: border-box;
     flex:auto;
@@ -11,6 +11,8 @@ header{
 }
 body{
     background-color: #adb5bd;
+    color: #333333;
+    
 }
 .link {
     color:rgb(0, 0, 0);
@@ -61,10 +63,17 @@ section{
     border-radius: 12px;
     box-sizing: border-box;
 }
+img{
+    border: auto solid #333333;
+    border-radius: 12px;
+    box-sizing: border-box;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
 h1{
     background-color: #6c757d;
 }
 footer{
     text-align: center;
 }
-
